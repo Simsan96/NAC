@@ -50,7 +50,6 @@ Vektor2D minimieren2D(Funktion2D f, Vektor2D v, double stepLength, int maxIterat
 		iteration++;
 		//std::cout << " x-coordinate: " << v.m_Element[0] << " y-coordinate: " << v.m_Element[1] <<  " function value: " << f(v)<< " iteration NO " <<iteration<< std::endl;
 	}
-	std::cout << iteration;
-	return gradient;
+	return v;
 
 }

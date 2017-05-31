@@ -7,7 +7,7 @@ int main(int argv,char* argc[]) {
 		Vektor2D v(3.0, 1.0);
 		Vektor2D result;
 		result = minimieren2D(f, v, 0.2, 10000,0.000035,0.000035);
-		std::cout << result.m_Element[0] << " " << result.m_Element[1] << " " << result.betrag();
+		std::cout <<" x-coordinate: "  << result.m_Element[0] << " y-coordinate: " << result.m_Element[1] << " function value:  " << f(result) <<std::endl;
 		system("PAUSE");
 		
 		 
